@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="game--title">Rock Paper Scissors</h1>
+
+    <header>
+      <p>Race to 5. May the best player win!</p>
+    </header>
+
+    <main>
+      <section class="player player--0">
+        <h2>Player</h2>
+        <div class="option--container">
+          <button type="button" class="btn--option btn--rock">
+            <img src="option--1.png" alt="" class="choice rock" />
+          </button>
+          <button type="button" class="btn--option btn--paper">
+            <img src="option--2.png" alt="" class="choice paper" />
+          </button>
+          <button type="button" class="btn--option btn--scissors">
+            <img src="option--3.png" alt="" class="choice scissors" />
+          </button>
+        </div>
+
+        <p class="player--score">Score</p>
+        <p class="score score--0">0</p>
+      </section>
+      <section class="player player--1">
+        <h2>Computer</h2>
+        <div class="option--container">
+          <div class="question-container">
+            <img src="question.png" alt="" class="choice question" />
+          </div>
+        </div>
+
+        <p class="player--score">Score</p>
+        <p class="score score--1">0</p>
+      </section>
+    </main>
+    <div class="start--container">
+      <button type="button" class="btn btn--start">Start game</button>
+    </div>
+
+    <button type="button" class="btn btn--again">Play again</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P", sans-serif;
+
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+}
+
+main{
+   display: flex;
+}
+
+.player {
+    padding: 70px 50px;
+    min-height: 100%;
+    width: 50%;
+    background: #444;
+  }
+
+img {
+  height: 130px;
+  width: 130px;
+  object-fit: contain;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.option--container {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: red; */
+}
+
+button {
+  cursor: pointer;
+  transition: .2s all linear;
+}
+.question-container {
+  margin: auto;
+
+}
+.btn--option,
+.question-container {
+    width: fit-content;
+  padding: 30px;
+  border-radius: 30px;
+  background: #444;
+  border: none;
+}
+
+button:hover {
+    scale: 1.1;
+    background: #999;
+}
+
+.btn--again {
+    /* display: none; */
+    margin: 7px auto;
+    padding: 30px;
+}
+
+.game--title {
+    font-size: 60px;
+    padding: 50px 0;
+    color: aquamarine;
+}
+
+header p {
+    padding: 50px 0 150px 0;
+    font-size: 20px;
+    color: orangered;
+}
+
+.player--0 {
+  background-color: #666;
+  color: gold;
+
+}
+
+.player--1 {
+    color: orangered;
+}
+
+.player--score, .score {
+    font-size: 52px;
+    margin-top: 40px;
+
+}
+
+.player--score {
+  font-size: 20px;
+}
+.start--container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn--start{
+    font-size: 20px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.game-winner {
+    color: white;
+  background-color: #006400;
+}
+
+.game-loser {
+    color: white;
+
+  background-color: #8B0000;
+}
+
+.more--score {
+  background-color: gold;
+}
+
+.hidden {
+  display: none;
+}
